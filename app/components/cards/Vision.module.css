@@ -35,12 +35,17 @@
   }
 
 @media (max-width: 999px) {
-    html{
-        font-size: 60%;
+    .decvision{
+        font-size: 15px;
     }
     .cardvision{
         margin: 20px 0;
         padding: 20px;
+    }
+}
+@media (max-width: 999px) {
+    .decvision{
+        font-size: 13px;
     }
 }
 
