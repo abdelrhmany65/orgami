@@ -1,0 +1,12 @@
+
+.experience{
+    background-color: var(--black02-color);
+    
+}
+.experienceIcon{
+    background-color: var(--black03-color);
+}
+.cardex{
+    padding: 0  20px 20px 20px;
+    background-color: var(--black01-color);
+}

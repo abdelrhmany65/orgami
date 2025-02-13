@@ -1,0 +1,101 @@
+.HeroImage {
+    background-image: url('/images/slider-5-1.webp');
+    width: 100% !important;
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentHero {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* محاذاة النصوص حسب اللغة */
+[dir="rtl"] .contentHero {
+    text-align: right;
+    
+}
+
+[dir="ltr"] .contentHero {
+    text-align: left;   
+}
+
+/* تحسين النصوص */
+.text03Hero {
+    color: var(--white02-color);
+    font-size: 18px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.text01Hero {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    width: 70%;
+    margin: 15px 0;
+}
+
+.text02Hero {
+    color: var(--white02-color);
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.underLine{
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: var(--golden-color);
+    margin-top: 10px;
+}
+/* =====================  Media Queries ======================== */
+@media (max-width: 1024px) {
+    .contentHero {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .HeroImage {
+        height: 80vh;
+        background-attachment: scroll; 
+    }
+
+}
+
+@media (max-width: 597px) {
+
+    /* تحسين النصوص */
+.text03Hero {
+    font-size: 13px;
+}
+
+.text01Hero {
+    font-size: 45px;
+    width: 80%;
+    margin: 15px 0;
+}
+
+.text02Hero {
+    color: var(--white02-color);
+    font-size: 10px;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+}

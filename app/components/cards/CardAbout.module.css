@@ -1,0 +1,84 @@
+.cardAbout {
+    background-color: var(--black03-color);
+    height: 20rem;
+    width: 100% !important;
+}
+
+.cardsAbout {
+    width: 22rem !important;
+    height: 24rem !important;
+    margin-top: 80px;
+    transition: background 0.3s ease; /* إضافة الانتقال للخلفية */
+}
+
+.cardsAbout:hover {
+    animation: colorChange 1s forwards;
+}
+
+.carsAboutImage {
+    background: var(--white02-color);
+    width: 25%;
+    transition: background 0.3s ease; /* إضافة الانتقال للخلفية */
+}
+
+.cardsAbout:hover .carsAboutImage {
+    background: var(--white01-color);
+}
+
+.carsAboutImage02 {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.cardsAbout:hover .CardAboutTitle,
+.cardsAbout:hover .CardAboutText {
+    color: var(--white01-color) !important;
+}
+@keyframes colorChange {
+    from {
+        background-color: var(--white01-color);
+    }
+    to {
+        background-color: var(--golden-color);
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 994px) {
+    .cardAbout {
+        height: auto;
+        padding: 20px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .cardAbout {
+        background-color: transparent;
+        height: auto;
+
+    }
+
+    .cardsAbout {
+        width: 16rem;
+        margin-top: 40px;
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    .carsAboutImage {
+        width: 35%;
+    }
+
+    .carsAboutImage02 {
+        height: 90px;
+    }
+}

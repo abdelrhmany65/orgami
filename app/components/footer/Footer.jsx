@@ -1,0 +1,95 @@
+'use client';
+
+import { useTranslation } from "react-i18next";
+import Link from "next/link";
+import { footerimage } from "../../utils/images/images";
+import styles from "./footer.module.css";
+
+const Footer = () => {
+  const { t } = useTranslation();
+
+  return (
+    <footer>
+      <div className={`Subscribe ${styles.sub}`}>
+        <div className="container">
+          <div className="d-flex align-items-center justify-content-around py-4">
+            <h3 className="text-light">{t("footer.subDescription")}</h3>
+            <Link href="/" className="BtnStyle511 p-2">
+              <span>{t("footer.contactUs")}</span>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.footer}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-3">
+              <h2>Logo</h2>
+              <p>{t("footer.description")}</p>
+              <div className={styles.socialIcons}>
+                <a target="_blank" rel="noopener noreferrer">
+                  <img src={footerimage.face} alt="facebook" />
+                </a>
+                <a target="_blank" rel="noopener noreferrer">
+                  <img src={footerimage.watsap} alt="whatsapp" />
+                </a>
+                <a target="_blank" rel="noopener noreferrer">
+                  <img src={footerimage.instagr} alt="instagram" />
+                </a>
+                <a target="_blank" rel="noopener noreferrer">
+                  <img src={footerimage.linkedin} alt="linkedin" />
+                </a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-12">
+              <h3>{t("footer.company")}</h3>
+              <ul>
+                <li><Link href="/about">{t("footer.about")}</Link></li>
+                <li><Link href="/services">{t("footer.services")}</Link></li>
+                <li><Link href="/projects">{t("footer.projects")}</Link></li>
+                <li><Link href="/contact">{t("footer.contact")}</Link></li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-12">
+              <h3>{t("footer.helpSupport")}</h3>
+              <ul>
+                <li><Link href="/faq">{t("footer.faq")}</Link></li>
+                <li><Link href="/contact">{t("footer.contact")}</Link></li>
+                <li><Link href="/terms">{t("footer.terms")}</Link></li>
+              </ul>
+            </div>
+
+            <div className="col-md-3">
+              <h3>{t("footer.contactUs")}</h3>
+              <div className={`${styles.ContentLeft} py-2`}>
+                <a href="mailto:Ysser@OrigamiTechs.com" target="_blank" rel="noopener noreferrer" className="text-light">
+                {t("footer.email")}
+                  <span className={styles.textSpan}>: Ysser@OrigamiTechs.com</span>
+                </a>
+              </div>
+              <div className={styles.ContentLeft}>
+                <a rel="noopener noreferrer">
+                  <img src={footerimage.map_location} alt="location" className={styles.leftImg} />
+                  <span className={styles.textSpan}>{t("footer.location")}</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-dark'>
+        <div className="container text-center py-1">
+          <p className="m-0 text-light">{t("footer.copyright")}</p>
+        </div>
+      </div>
+
+    </footer>
+  );
+};
+
+export default Footer;

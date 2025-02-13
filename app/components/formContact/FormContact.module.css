@@ -1,0 +1,100 @@
+.formContainer {
+    width: 100%;
+    padding-top: 10rem;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--heading-color);
+  }
+  
+  .description {
+    font-size: 16px;
+    color: var(--text-color01);
+  }
+  
+  .form {
+    background: var(--white03-color);
+    padding: 45px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+  }
+  .titleform{
+    width: 50%;
+    padding: 0 50px;
+  }
+  [dir = "rtl"] .form,
+  [dir = "rtl"] .titleform{
+    text-align: right;
+  }
+
+  [dir = "ltr"] .titleform,
+  [dir = "ltr"] .form{
+    text-align: left;
+  }
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--text-color02);
+    background-color: var(--white01-color);
+    color: var(--white-color);
+    outline: none;
+  }
+  
+  .form label {
+    color: var(--black03-color);
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  
+  .contactImage {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .titleform{
+        width: 100%;
+      }
+  }
+
+  @media (min-width: 768px) {
+    .contactHero {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+    }
+  
+    .form {
+      flex: 1;
+      max-width: 500px;
+    }
+  
+    .contactImage {
+      flex: 1;
+      max-width: 100%;
+    }
+  }
+  
+  /* تحسين الخريطة لتكون متجاوبة */
+  .mapContainer {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  .mapContainer iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+  }
+  

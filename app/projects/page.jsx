@@ -1,0 +1,33 @@
+
+import Experience from '../components/experience/Experience'
+import TopImage from '../utils/topimage/TopImage'
+import styles from "../page.module.css";
+import ServisCopo from '../components/[sliders]/ServisCopo/ServisCopo';
+import Testimonial from '../components/testmonial/Testimonial';
+import FormContact from '../components/formContact/FormContact';
+import Why from '../components/why/Why';
+
+const Projects = () => {
+  return (
+    <div>
+      <TopImage title={"Our Project"}/>
+      <section className={`${styles.topsection}`}>
+        <ServisCopo />
+      </section>
+
+      <section className={`${styles.topsection}`}>
+        <Experience />
+        <Why />
+      </section>
+      <section className={`${styles.topsection02}`}>
+        <Testimonial />
+      </section>
+
+        <FormContact />
+
+
+    </div>
+  )
+}
+
+export default Projects

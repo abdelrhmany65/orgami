@@ -1,0 +1,31 @@
+.cardhowwork{
+    background: var(--white03-color);
+    padding: 30px;
+    height: 20rem;
+}
+.TitleHOw{
+    width: 50%;
+    color: var(--black03-color);
+    
+}
+.decvision{
+    font-size: 20px;
+    color: var(--black03-color);
+    margin-bottom: 10px;
+    font-weight:inherit;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 994px) {
+    .decvision{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 994px) {
+    .cardhowwork{
+        height: auto;
+
+    }
+
+}
