@@ -1,31 +1,82 @@
-.cardhowwork{
+.cardhowwork {
     background: var(--white03-color);
     padding: 30px;
-    height: 20rem;
+    margin: 10px 0;
+    height: 22rem;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s ease;
 }
-.TitleHOw{
+
+.cardhowwork::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--black02-color);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateX(100%);
+    z-index: 1; 
+    opacity: 0; 
+}
+
+.cardhowwork:hover::before {
+    transform: translateX(0);
+    opacity: 1; 
+}
+
+.TitleHOw, .decvision {
+    position: relative;
+    z-index: 3; 
+    transition: color 0.3s ease;
+}
+
+.TitleHOw {
     width: 50%;
     color: var(--black03-color);
-    
 }
-.decvision{
+
+.decvision {
     font-size: 20px;
     color: var(--black03-color);
     margin-bottom: 10px;
-    font-weight:inherit;
+    font-weight: inherit;
     padding-bottom: 10px;
 }
 
+.cardhowwork:hover .TitleHOw,
+.cardhowwork:hover .decvision {
+    color: var(--white01-color);
+}
+
+.cardhowwork .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4; 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.cardhowwork:hover .overlay-content {
+    opacity: 1; 
+}
+.topsection{
+    padding-top: 8rem;
+}
+
 @media (max-width: 994px) {
-    .decvision{
+    .topsection{
+        padding-top: 1rem;
+    }
+    .decvision {
         font-size: 15px;
     }
 
-}
-@media (max-width: 994px) {
-    .cardhowwork{
+    .cardhowwork {
         height: auto;
-
     }
-
 }

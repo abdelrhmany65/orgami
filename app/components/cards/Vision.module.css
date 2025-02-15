@@ -3,9 +3,15 @@
     padding: 35px;
 }
 .visionImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     animation: moveUpDown 2s infinite;
 }
 .visionImage02{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     animation: moveUpDown 2.5s infinite;
 }
 .decvision{

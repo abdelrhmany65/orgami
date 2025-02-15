@@ -6,13 +6,13 @@ import { useTranslation } from "react-i18next";
 
 import styles from "./About.module.css";
 
-
 const AboutCop = () => {
 
     const { t, i18n } = useTranslation();
 
   return (
     <div className={styles.mainabout}>
+        
         <div className="container">
             <div className="row">
             <div className="col-lg-6">

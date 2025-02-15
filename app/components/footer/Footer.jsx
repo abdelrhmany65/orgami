@@ -24,10 +24,10 @@ const Footer = () => {
       <div className={styles.footer}>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6 col-12 text-center">
               <h2>Logo</h2>
-              <p>{t("footer.description")}</p>
-              <div className={styles.socialIcons}>
+              <p className="px-3">{t("footer.description")}</p>
+              <div className={`${styles.socialIcons} d-flex justify-content-center`}>
                 <a target="_blank" rel="noopener noreferrer">
                   <img src={footerimage.face} alt="facebook" />
                 </a>
@@ -62,15 +62,15 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-lg-3 col-md-6 col-12">
               <h3>{t("footer.contactUs")}</h3>
-              <div className={`${styles.ContentLeft} py-2`}>
+              <div className={`${styles.ContentLeft} py-2 d-flex justify-content-center`}>
                 <a href="mailto:Ysser@OrigamiTechs.com" target="_blank" rel="noopener noreferrer" className="text-light">
-                {t("footer.email")}
-                  <span className={styles.textSpan}>: Ysser@OrigamiTechs.com</span>
+                <img src={footerimage.mail} className={styles.leftImg}/>
+                  <span className={`${styles.textSpan}`}> Ysser@OrigamiTechs.com</span>
                 </a>
               </div>
-              <div className={styles.ContentLeft}>
+              <div className={`${styles.ContentLeft} d-flex justify-content-center`}>
                 <a rel="noopener noreferrer">
                   <img src={footerimage.map_location} alt="location" className={styles.leftImg} />
                   <span className={styles.textSpan}>{t("footer.location")}</span>

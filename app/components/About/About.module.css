@@ -55,9 +55,14 @@
 [dir="ltr"] .Aboutimage02 {
   margin-left: 10%;
 }
-
+.toptowsectopn{
+  margin-top: 150px;
+}
 /* Media Queries for Responsive Design */
 @media (max-width: 992px) {
+  .toptowsectopn{
+    margin-top: 0px;
+  }
   .AboutCopImage{
     width: 100%;
   }

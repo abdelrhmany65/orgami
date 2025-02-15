@@ -5,10 +5,10 @@
 }
 
 .cardsAbout {
-    width: 22rem !important;
-    height: 24rem !important;
+    width: 20rem !important;
+    height: 25rem !important;
     margin-top: 80px;
-    transition: background 0.3s ease; /* إضافة الانتقال للخلفية */
+    transition: background 0.3s ease;   
 }
 
 .cardsAbout:hover {
@@ -18,7 +18,7 @@
 .carsAboutImage {
     background: var(--white02-color);
     width: 25%;
-    transition: background 0.3s ease; /* إضافة الانتقال للخلفية */
+    transition: background 0.3s ease; 
 }
 
 .cardsAbout:hover .carsAboutImage {

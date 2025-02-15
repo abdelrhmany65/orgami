@@ -203,7 +203,27 @@
           
         }
       }
+    },
+    "projectsCards": {
+      "systemsDevelopment": {
+        "title": "Systems Development",
+        "decoration": "Building and managing large-scale systems to optimize business processes, improve operational efficiency, and ensure smooth operations across various platforms. Our systems are designed to support scalability, security, and ease of integration with other technologies, ensuring long-term success and growth for businesses."
+      },
+      "webDevelopment": {
+        "title": "Web Development",
+        "decoration": "Creating responsive, dynamic, and user-friendly websites that help businesses engage with customers, provide an exceptional user experience, and grow their online presence. Our websites are optimized for mobile devices and designed with SEO best practices in mind to drive traffic and increase conversions."
+      },
+      "mobileAppDevelopment": {
+        "title": "Mobile App Development",
+        "decoration": "Developing innovative mobile applications for Android and iOS that deliver seamless user experiences, meet business needs, and enhance customer engagement. We focus on intuitive design, high performance, and cutting-edge features to make your app stand out in a crowded market."
+      },
+      "dataAnalysis": {
+        "title": "Data Analysis",
+        "decoration": "Using advanced data analysis techniques to extract valuable insights from large datasets, helping businesses make informed decisions, optimize processes, and improve performance. Our data-driven solutions enable companies to identify trends, forecast outcomes, and gain a competitive edge in the market."
+      }
     }
+
+    
     
   
     

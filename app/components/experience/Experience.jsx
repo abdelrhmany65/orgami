@@ -25,7 +25,7 @@ const Experience = () => {
         <div className="row">
           {experienceImages.map((item, index) => (
             <div className='col-lg-3 col-md-6' key={index}>
-              <div className={`${styles.Exservicecard} card border-0`}>
+              <div className={`${styles.Exservicecard} card border-0 `}>
                 <div className={`card ${styles.cardex}`}>
                   {/* Icon */}
                   <div className={`d-flex justify-content-center `}>

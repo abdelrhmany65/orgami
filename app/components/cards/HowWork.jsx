@@ -1,52 +1,24 @@
 "use client";
 import { useTranslation } from "react-i18next";
 import styles from "./howwork.module.css";
+import Link from 'next/link'; 
 
-const HowWork = () => {
+const HowWork = ({ title, description, imageSrc, altText, showLink, children, linkHref }) => { 
   const { t } = useTranslation();
 
   return (
-    <div>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 my-2">
-            <div className={`rounded ${styles.cardhowwork}`}>
-                <div className={`d-flex justify-content-between align-items-center`}>
-                <h2 className={`mb-4 fw-bold ${styles.TitleHOw}`}> {t("howWork.analysis.title")} </h2>
-                <img src="/images/service__no__01.png" alt={t("howWork.analysis.title")} />
-                </div>
-                <p className={styles.decvision}>{t("howWork.analysis.description")}</p>
-            </div>
-          </div>
-          <div className="col-md-6 my-2">
-            <div className={`rounded ${styles.cardhowwork}`}>
-            <div className="d-flex justify-content-between align-items-center">
-              <h2 className={`mb-4 fw-bold ${styles.TitleHOw}`}>{t("howWork.design.title")}</h2>
-              <img src="/images/service__no__02.png" alt={t("howWork.design.title")} />
-            </div>
-            <p className={styles.decvision}>{t("howWork.design.description")}</p>
-            </div>
-          </div>
+    <div className="col-md-6">
+      <div className={`rounded ${styles.cardhowwork}`}>
+        <div className={`d-flex justify-content-between align-items-center`}>
+          <h2 className={`mb-4 fw-bold ${styles.TitleHOw}`}>{t(title)}</h2>
+          <img src={imageSrc} alt={t(altText)} className="z-2"/>
         </div>
-        <div className="row">
-          <div className="col-md-6 my-2">
-          <div className={`rounded ${styles.cardhowwork}`}>
-            <div className="d-flex justify-content-between align-items-center">
-            <h2 className={`mb-4 fw-bold ${styles.TitleHOw}`}>{t("howWork.development.title")}</h2>
-              <img src="/images/service__no__03.png" alt={t("howWork.development.title")} />
-            </div>
-            <p className={styles.decvision}>{t("howWork.development.description")}</p>
-            </div>
-          </div>
-          <div className="col-md-6 my-2">
-          <div className={`rounded ${styles.cardhowwork}`}>
-            <div className="d-flex justify-content-between align-items-center">
-              <h2 className={`mb-4 fw-bold ${styles.TitleHOw}`}>{t("howWork.deliverySupport.title")}</h2>
-              <img src="/images/service__no__04.png" alt={t("howWork.deliverySupport.title")} />
-            </div>
-            <p className={styles.decvision}>{t("howWork.deliverySupport.description")}</p>
-            </div>
-          </div>
+        <p className={styles.decvision}>{t(description)}</p>
+        <div className={styles.overlayContent}>
+        {showLink && linkHref && (
+            <Link href={linkHref} className="BtnStyle231 z-2"><span>Read more</span></Link>
+          )}
+          {children}
         </div>
       </div>
     </div>
