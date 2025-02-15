@@ -23,16 +23,14 @@ const TopHeader = () => {
         <div className="content-topheader d-flex justify-content-between align-items-center">
           {/* القسم الأيسر: معلومات التواصل */}
           <div className="left d-flex justify-content-between align-items-center">
-            <div className={`${styles.ContentLeft} mx-2 `}>
+            <div className={`${styles.ContentLeft} mx-2 .ltr-text`}>
               <a
                 href="mailto:Ysser@OrigamiTechs.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none"
               >
-                <span className={`${styles.textSpan} text-white`}>
-                  {' '}Ysser@OrigamiTechs.com
-                </span>
+                
                 <Image
                   width={15}
                   height={15}
@@ -40,17 +38,18 @@ const TopHeader = () => {
                   alt="mail"
                   className={styles.leftImg}
                 />
-                
+                <span className={`${styles.textSpan} text-white`}>
+                  {' '}Ysser@OrigamiTechs.com
+                </span>
+
               </a>
             </div>
-            <div className={`${styles.ContentLeft}`}>
+            <div className={`${styles.ContentLeft} .ltr-text`}>
               <a
                 rel="noopener noreferrer"
                 className="text-decoration-none"
               >
-                <span className={`${styles.textSpan} text-white`}>
-                  {' '}Al Medinha - Saudi Arabia
-                </span>
+                
                 <Image
                   width={15}
                   height={15}
@@ -58,6 +57,9 @@ const TopHeader = () => {
                   alt="phone"
                   className={styles.leftImg}
                 />
+                <span className={`${styles.textSpan} text-white`}>
+                  {' '}Al Medinha - Saudi Arabia
+                </span>
                 
               </a>
             </div>

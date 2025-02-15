@@ -42,6 +42,7 @@ const FormContact = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <img src="/images/contact.png" alt="Contact" className={styles.contactImage} />
             </div>
+            
           </div>
 
           <div className="row mt-5">

@@ -127,7 +127,7 @@ const Header = () => {
                   />
                     <div style={{padding:"5px" }}>
                       <h5 className='text-dark fw-bold text-center' style={{fontSize: "15px"}}>{t("Header.contact_us_whatss")}</h5>
-                      <h5 className='text-dark fw-bold text-center' style={{fontSize: "12px"}}>+966 59 604 6900</h5>
+                      <h5 className='text-dark fw-bold text-center ltr-text' style={{fontSize: "12px"}}>+966 59 604 6900</h5>
                     </div>
               </a>
           </div>

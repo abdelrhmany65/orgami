@@ -107,6 +107,11 @@ body {
   transform: translateX(0);
 }
 
+.ltr-text {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
 @media (max-width: 999px) {
   .BtnStyle511,
   .BtnStyle231 {

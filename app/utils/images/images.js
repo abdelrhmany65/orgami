@@ -162,26 +162,29 @@ export const footerimage = {
   map_location: '/icons/topheader/geo-alt-fill.svg'
 }
 
-// src/assets/Contactgrid Cards.js
 export const ContactGridImage = [
   {
     Contact_titleKey: 'contact_us.contact_card.Contactphone.title',
     Contact_textKey: 'contact_us.contact_card.Contactphone.text',
     additionalTextKey: 'contact_us.contact_card.Contactphone.additionalText',
     Contact_image: './icons/contactus/phone 1.svg',
+    link: 'tel:+966596046900' 
   },
   {
     Contact_titleKey: 'contact_us.contact_card.Contactemail.title',
     Contact_textKey: 'contact_us.contact_card.Contactemail.text',
     additionalTextKey: 'contact_us.contact_card.Contactemail.additionalText',
     Contact_image: './icons/contactus/email 1.svg',
+    link: 'mailto:Ysser@OrigamiTechs.com' 
   },
   {
     Contact_titleKey: 'contact_us.contact_card.Contactlocation.title', 
     Contact_textKey: 'contact_us.contact_card.Contactlocation.text',  
     additionalTextKey: 'contact_us.contact_card.Contactlocation.additionalText', 
     Contact_image: './icons/contactus/location 1.svg', 
+    link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.2902976020328!2d39.664610599999996!3d24.440711600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bdbfbcc19f31eb%3A0xadeaa4593bb58015!2z2K_ZitmD2YjYsdin2Kog2KfZhNi52LPZitmE2KfZhg!5e0!3m2!1sar!2seg!4v1736336717195!5m2!1sar!2seg" 
   },
 ];
+
 
 
