@@ -196,14 +196,14 @@ const Header = () => {
         <div className={`icons-right ${styles.socialIcons}`}>
           
           
-              <a
+              {/* <a
                   href="tel:+966 59 604 6900"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-decoration-none d-flex align-items-cente"
               >
                   <img src={headerimage.phone2} alt="WhatsApp"/>
-              </a>
+              </a> */}
           
  
           <a
@@ -215,14 +215,14 @@ const Header = () => {
             <img src={headerimage.whatsappSVG} alt="whatsapp" className={styles.rightBox} />
           </a>
 
-          <a
-            // href="https://www.instagram.com/al_osseilan/?igsh=MWJ5cXI4cDNsZDdrMw%3D%3D#"
+          {/* <a
+            href="https://www.instagram.com/al_osseilan/?igsh=MWJ5cXI4cDNsZDdrMw%3D%3D#"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-1"
           >
             <img src={headerimage.insta} alt="instagram" className={styles.rightBox} />
-          </a>
+          </a> */}
 
         </div>  
 

@@ -11,7 +11,7 @@ const HowWorkTwo = () => {
 
   return (
     <div>
-    <TopImage title={t('service_card.title')}/>
+    <TopImage title={t('projectsCards.title')}/>
       <div className="container">
         <section className={`${styles.topsection}`}>
           <section className={`row m-0 p-0 ${styles.topsection02}`}>
