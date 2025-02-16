@@ -32,7 +32,7 @@ const HeroImage = () => {
               >
                 {t("Hero.suptitle")}
                 <motion.div
-                  className={`${styles.underLine}`}
+                  className={`${styles.underLine} m-auto mt-2`}
                   initial={{ scaleX: 0 }}
                   whileInView={{ scaleX: 1 }}
                   transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
