@@ -4,13 +4,13 @@ import ServisCopo from '../components/[sliders]/ServisCopo/ServisCopo';
 // import Testimonial from '../components/testmonial/Testimonial';
 import FormContact from '../components/formContact/FormContact';
 import Why from '../components/why/Why';
-// import HowWorkTwo from '../components/cards/HowWorkTwo';
+
 
 
 const Projects = () => {
   return (
     <div>
-      {/* <HowWorkTwo /> */}
+      
       <section className={`${styles.topsection02}`}>
         <ServisCopo />
       </section>
