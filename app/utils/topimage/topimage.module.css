@@ -1,0 +1,26 @@
+.TopImage {
+    background-image: url('/images/Gemini_Generated_Image_x31m0ix31m0ix31m.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    margin-top: 100px;
+  }
+  
+  .title {
+    position: relative;
+    z-index: 2; 
+    color: white;
+  }
+  
+  @media (max-width: 998px) {
+    .TopImage {
+      height: 40vh;
+    }
+  }

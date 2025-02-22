@@ -1,0 +1,61 @@
+.cardAbout {
+    background-color: var(--black03-color);
+    height: 20rem;
+    width: 100% !important;
+}
+
+.cardsAbout {
+    background-color: var(--white01-color);
+    width: 20rem !important;
+    height: 25rem !important;
+    margin-top: 80px;  
+    transition: al 0.9s linear;
+}
+.carsAboutImage {
+    width: 100%;
+}
+
+.carsAboutImage02 {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 994px) {
+    .cardAbout {
+        height: auto;
+        padding: 20px 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .cardAbout {
+        background-color: transparent;
+        height: auto;
+
+    }
+
+    .cardsAbout {
+        width: 16rem;
+        margin-top: 40px;
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    .carsAboutImage {
+        width: 35%;
+    }
+
+    .carsAboutImage02 {
+        height: 90px;
+    }
+}

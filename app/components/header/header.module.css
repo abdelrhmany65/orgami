@@ -1,0 +1,124 @@
+/* ===================  TOP HEADER ================================ */
+.topHeader{
+    background: var(--black02-color);
+    padding:0;
+ 
+  }
+  .leftImg {
+    cursor: pointer;
+    filter: invert(61%) sepia(93%) saturate(698%) hue-rotate(4deg) brightness(105%) contrast(97%);
+  }
+  
+  .textSpan{
+    font-size: 12px;
+    cursor: pointer;
+    padding:0 3px;
+  }
+  /* ======================  Header ======================  */
+  .header {
+    top: 40px;
+    height: 58px;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    background-color: var(--white01-color);
+    z-index: 99 !important;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .header.scrolled {
+    background-color: var(--black01-color); 
+    top: 0px;
+  }
+  
+  .offcanvas {
+    z-index: 1050; 
+  }
+    
+.headerLogo {
+  width: 110px;
+  height: 70px;
+  border-radius: 5px;
+  filter: brightness(0) invert(1);
+
+}
+
+.textStyle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.08px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.textStyle:hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid var(--black01-color);
+  padding-bottom: 2px;
+}
+
+.nav__active {
+  color: var(--golden-color);
+  font-weight: 600;
+}
+
+.customOffcanvas {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: #ffffff;
+  box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+.offcanvas-body {
+  display: flex; 
+  flex-direction: column; 
+  padding-right: 10px;
+  animation: slideIn 0.5s ease-out;
+}
+.contactButton{
+  background-color: var(--golden-color);
+  width: 240px;
+}
+
+.socialIcons {
+  position: fixed;
+  bottom: 10%;
+  right: 25px;
+  z-index: 100;
+}
+
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.socialIcons img {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 50%; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.socialIcons img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(144, 0, 0, 0.2); 
+}
+/* ====================   media  ========================*/
+@media (max-width: 768px) {
+    .textSpan{
+    font-size: 8px;
+    cursor: pointer;
+    padding:0 3px;
+  }
+}
+@media (max-width: 371px) {
+  .textSpan{
+  font-size: 6px;
+  cursor: pointer;
+  padding:0 3px;
+}
+}

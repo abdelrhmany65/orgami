@@ -1,0 +1,103 @@
+.sub {
+    background-color: var(--black01-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--black02-color);
+    padding: 40px 0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.footer h3 {
+    color: var(--white01-color);
+    margin: 15px 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.footer p {
+    color: var(--white01-color);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.footer ul li a {
+    color: var(--white01-color);
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer ul li a:hover {
+    color: var(--golden-color);
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.socialIcons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.socialIcons a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.socialIcons a img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+    
+}
+
+/* Contact Section */
+.ContentLeft {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.leftImg {
+    width: 25px;
+    margin-right: 10px;
+    filter: invert(61%) sepia(93%) saturate(698%) hue-rotate(4deg) brightness(105%) contrast(97%);
+
+}
+
+.textSpan {
+    padding: 0 5px;
+    font-size: 14px;
+    color: var(--white02-color);
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

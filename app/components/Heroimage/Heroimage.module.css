@@ -1,0 +1,47 @@
+.HeroImage {
+    background-image: url('/images/slider-5-1.webp');
+    width: 100% !important;
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin-top: 100px;
+}
+
+/* تحسين النصوص */
+.text03Hero {
+    text-align: center;
+    color: var(--white02-color);
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.text01Hero {
+    text-align: center;
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+
+.text02Hero {
+    text-align: center;
+    color: var(--white02-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.underLine {
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: var(--golden-color);
+    margin-top: 10px;
+}
+
+/* =====================  Media Queries ======================== */
+
+

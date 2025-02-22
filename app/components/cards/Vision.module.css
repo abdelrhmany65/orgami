@@ -1,0 +1,57 @@
+.cardvision{
+    background: var(--white03-color);
+    padding: 35px;
+}
+.visionImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    animation: moveUpDown 2s infinite;
+}
+.visionImage02{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    animation: moveUpDown 2.5s infinite;
+}
+.decvision{
+    font-size: 20px;
+    color: var(--black03-color);
+    margin-bottom: 10px;
+    font-weight:inherit;
+}
+.underLine {
+    content: "";
+    width: 25%;
+    height: 3px;
+    background-color: var(--golden-color);
+    margin-top: 10px;
+  }
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+@media (max-width: 999px) {
+    .decvision{
+        font-size: 15px;
+    }
+    .cardvision{
+        margin: 20px 0;
+        padding: 20px;
+    }
+}
+@media (max-width: 999px) {
+    .decvision{
+        font-size: 13px;
+    }
+}
+

@@ -1,0 +1,250 @@
+{
+    "Header":{
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "projects": "Products",
+        "contact": "Contact Us",
+        "arabic": "Arabic",
+        "english": "English",
+        "contact_us_whatss": "Contact Us"
+    },
+    "Hero":{
+        "suptitle":"Innovation, Development, Excellence" ,
+        "title": "We build technology, and you build the future!",
+        "subtitle": "We offer you advanced digital solutions to help you achieve success. From designing modern interfaces to intelligent software,let us take your business to the next level!",
+        "button": "Contact",
+        "button02": "Services"
+    },
+    "CardAbout": {
+        
+          "solution": {
+            "title": " Perfect Solution Every Business Demands",
+            "text": "Advanced, customizable technology solutions that meet the needs of startups and large enterprises alike."
+          },
+          "Holding": {
+            "title": "What is Holding Back the IT Solution?",
+            "text": "Protecting your data and the security of your systems is our priority. We provide advanced security solutions to keep your business safe."
+          },
+          "Businesses": {
+            "title": "Helping Businesses Around the World",
+            "text": "Manage projects effectively to achieve the highest levels of productivity, with integrated solutions that make it easier for you to control your operations."
+            
+          }
+    },
+    "AboutCop":{
+      
+          "title": "About Us",
+          "text": "We are a company specialized in providing comprehensive software solutions, offering the best services in application and system development using the latest technologies.",
+          "paragraph": "Our team of professional developers and designers works on delivering innovative solutions that meet our clients' needs with high professionalism and quality. We believe that the success of any project depends on creativity and good planning, which is why we use the latest technologies and best practices in software development. Whether you are looking to develop a website, a mobile app, or a comprehensive system to manage your business, we work hard to provide effective solutions that meet your requirements and help you achieve your goals. We also offer continuous technical support to ensure the stability of projects and maximize their benefits.",
+          "listOne":"We offer innovative solutions in the field of software development.",
+          "listTwo":"We build robust systems that meet the needs of our clients.",
+          "listThree":"We provide comprehensive technical support to ensure the continuity of projects.",
+          "AboutCop_button":"Read More"
+    },
+    "service_card": {
+      "title": "Our Services",
+      "text": "We offer a wide range of services to meet your technological and design needs.",
+    
+      "web": {
+        "title": "Web Development",
+        "decoration": "Designing and developing professional websites with the latest technologies for a seamless user experience."
+      },
+    
+      "Systems": {
+        "title": "Systems Development",
+        "text": "We create integrated systems tailored to your business needs, from data management to security solutions."
+      },
+    
+      "UIUX": {
+        "title": "UI/UX Design",
+        "text": "Modern designs and an exceptional user experience to ensure the highest levels of comfort and interaction."
+      },
+    
+      "mobileapp": {
+        "title": "Mobile App Development",
+        "text": "We develop high-quality apps that run smoothly on iOS and Android to maximize user engagement."
+      },
+    
+      "analysis": {
+        "title": "Data Analysis",
+        "text": "We offer in-depth analytics to help you make informed decisions based on data insights."
+      }
+    },
+    "experience": {
+      "success_projects": "Projects completed",
+      "Satisfied": "Satisfied Clients",
+      "Five":"Five Star Review",
+      "team_members": "team members"
+    },
+    "why": {
+      "title": "Why Choose Us",
+      "text": "We provide innovative and reliable tech solutions to help businesses grow and succeed in the digital world.",
+      "paragraph": "With a team of experts and cutting-edge technology, we ensure quality and innovation in every project we undertake. Our goal is to provide scalable and efficient solutions that help businesses grow and adapt to the ever-changing digital landscape. Whether it's web development, UI/UX design, or software solutions, we deliver excellence at every step.",
+      "services": [
+        {
+          "title": "Tech Solution",
+          "description": "Custom technology solutions designed to enhance your business operations."
+        },
+        {
+          "title": "Expert Team",
+          "description": "A highly skilled team dedicated to delivering the best results for your business."
+        }
+      ],
+      "why_button": "Learn More"
+    },
+    "testimonials": {
+      "title": "Customer Reviews",
+      "description": "We believe the best way to understand the quality of our services is through real experiences and honest feedback. Here’s what our valued customers have to say about their journey with us.",
+      "slider": {
+        "testimonial_1": {
+          "name": "Mohamed Ahmed",
+          "description": "The service provided was beyond exceptional! The team demonstrated professionalism, efficiency, and an eye for detail that made all the difference. From start to finish, they ensured our needs were met, and the final result was outstanding."
+        },
+        "testimonial_2": {
+          "name": "Mariam Yasser",
+          "description": "I couldn’t be happier with the work delivered! The team took time to understand my needs and executed the project flawlessly. Their expertise and dedication to quality make them the best choice for any business looking for top-notch services."
+        },
+        "testimonial_3": {
+          "name": "Sulaiman Ahmed",
+          "description": "What an incredible experience! The team was always available to answer my questions and provided valuable insights that helped improve my project. Their attention to detail and commitment to excellence made all the difference."
+        },
+        "testimonial_4": {
+          "name": "Abdullah Mohammed",
+          "description": "Absolutely fantastic! The quality of work exceeded my expectations. The team worked tirelessly to ensure every aspect of the project was perfect. If you're looking for professionals who truly care about their clients, this is the place."
+        },
+        "testimonial_5": {
+          "name": "Mahmoud Al-Sayed",
+          "description": "Their work speaks for itself! They went above and beyond to deliver a service that was both innovative and efficient. I was particularly impressed with their problem-solving skills and ability to handle challenges with ease."
+        },
+        "testimonial_6": {
+          "name": "Abdul Fattah Muhammad",
+          "description": "Exceptional service from start to finish! The team’s knowledge and expertise were evident throughout the project. They kept me informed at every stage, ensuring a smooth and hassle-free experience. Highly recommended!"
+        }
+      }
+    },
+    "form": {
+      "title": "Got a Vision? Let’s Bring It to Life",
+      "description": "Whether you have questions, need guidance, or are ready to kickstart your project, we’re here to collaborate and turn your ideas into reality. Reach out today!",
+      "name_label": "Name",
+      "name_placeholder": "Enter your name",
+      "email_label": "Email",
+      "email_placeholder": "Enter your email",
+      "phone_label": "Phone",
+      "phone_placeholder": "Enter your phone number",
+      "subject_label": "Subject",
+      "subject_placeholder": "Enter the subject",
+      "message_label": "Message",
+      "message_placeholder": "Enter your message",
+      "submit_button": "Send"
+    },
+    "footer": {
+      "subDescription": "We are here to support you and provide the assistance you need.",
+      "subscribeNow": "Subscribe now",
+      "lookingForProject": "Looking for a constructor for your next project?",
+      "contactUs": "Contact Us",
+      "company": "Company",
+      "about": "About",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact",
+      "helpSupport": "Help & Support",
+      "faq": "FAQ",
+      "terms": "Terms & Conditions",
+      "description": "We are a company specialized in providing innovative technological solutions that help our clients achieve their goals efficiently and professionally.",
+      "email": "Email",
+      "location": "Al Madinah - Saudi Arabia",
+      "copyright": "© 2024 All rights reserved. by <a href='/' class=' text-light'>Orgami</a>"
+
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "We strive to be at the forefront of innovation in our field, setting new standards of excellence in delivering smart solutions that meet customer needs. Our vision is to create a world full of creativity, where individuals and businesses can reach their full potential through the technology and services we provide. We believe that continuous change and ongoing development are the keys to success, and we work diligently to foster a work environment based on values, transparency, and professionalism."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to provide advanced and effective solutions that help our clients improve their performance and achieve their goals easily. We focus on offering distinguished services that rely on innovation and modern technology while ensuring customer satisfaction as a key partner in our success. We are committed to delivering high-quality products and services, fostering a work environment that enhances creativity and strategic thinking. We also work on building long-term relationships with our clients by providing continuous support and delivering an exceptional experience that exceeds their expectations."
+    },
+    "howWork": {
+      "analysis": {
+        "title": "Project Analysis",
+        "description": "Every successful project starts with a thorough analysis. We gather requirements, define objectives, and understand the client's needs to create a solid foundation for development. This phase ensures clear planning and minimizes potential risks."
+      },
+      "design": {
+        "title": "Design & Prototyping",
+        "description": "Once the requirements are clear, we move to the design phase. Our team creates intuitive UI/UX designs, wireframes, and prototypes to visualize the final product. We focus on aesthetics, usability, and brand alignment."
+      },
+      "development": {
+        "title": "Development & Implementation",
+        "description": "With the designs approved, we begin the development phase. Our engineers write clean, scalable, and efficient code while integrating the necessary features. We use modern technologies to ensure performance, security, and compatibility."
+      },
+      "deliverySupport": {
+        "title": "Delivery & Ongoing Support",
+        "description": "Once development is complete, we thoroughly test and deploy the project. After launch, we provide continuous support, updates, and maintenance to ensure optimal performance and long-term success."
+      }
+    },
+    "contact_us": {
+      "title": "Contact Us",
+      "contact_card": {
+        "Contactphone": {
+          "title": "Call Us",
+          "text": "+966 59 604 6900",
+          "additionalText": "Let us hear your voice! Your call means a lot to us, and our team is always ready to provide support and assistance."
+        },
+        "Contactemail": {
+          "title": "Email",
+          "text": "Ysser@OrigamiTechs.com",
+          "additionalText": "Got an idea or inquiry? Our inbox awaits your message to take the first step towards a successful partnership!"
+        },
+        "Contactlocation": {
+          "title": "Location",
+          "additionalText": "Al Medinha - Saudi Arabia",
+          "text": " "
+          
+        }
+      }
+    },
+    "projectsCards": {
+      "systemsDevelopment": {
+        "title": "Systems Development",
+        "decoration": "Building and managing large-scale systems to optimize business processes, improve operational efficiency, and ensure smooth operations across various platforms. Our systems are designed to support scalability, security, and ease of integration with other technologies, ensuring long-term success and growth for businesses."
+      },
+      "webDevelopment": {
+        "title": "Web Development",
+        "decoration": "Creating responsive, dynamic, and user-friendly websites that help businesses engage with customers, provide an exceptional user experience, and grow their online presence. Our websites are optimized for mobile devices and designed with SEO best practices in mind to drive traffic and increase conversions."
+      },
+      "mobileAppDevelopment": {
+        "title": "Mobile App Development",
+        "decoration": "Developing innovative mobile applications for Android and iOS that deliver seamless user experiences, meet business needs, and enhance customer engagement. We focus on intuitive design, high performance, and cutting-edge features to make your app stand out in a crowded market."
+      },
+      "dataAnalysis": {
+        "title": "Data Analysis",
+        "decoration": "Using advanced data analysis techniques to extract valuable insights from large datasets, helping businesses make informed decisions, optimize processes, and improve performance. Our data-driven solutions enable companies to identify trends, forecast outcomes, and gain a competitive edge in the market."
+      }
+    },
+    "howwork": {
+      "planningTitle": "Planning",
+      "planningDescription": "We define the main objectives and set a strategic plan for effective execution.",
+      "designTitle": "Design",
+      "designDescription": "Transforming ideas into visual designs that reflect the project's identity.",
+      "developmentTitle": "Development",
+      "developmentDescription": "Building the core components using modern technologies for optimal performance.",
+      "testingTitle": "Testing",
+      "testingDescription": "Conducting comprehensive tests to ensure quality and system stability.",
+      "notesTitle": "Notes",
+      "notesDescription": "Gathering user feedback to enhance the system based on real experiences.",
+      "releaseTitle": "Release",
+      "releaseDescription": "Launching the final version after all requirements and tests are met."
+    }
+    
+
+    
+    
+  
+    
+
+        
+    
+    
+       
+}

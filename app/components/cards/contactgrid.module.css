@@ -1,0 +1,60 @@
+
+  
+
+  .maincontact {
+    padding: 50px 0;
+    background: var(--white03-color);
+  }
+
+  .ContactCard {
+    height: 18rem;
+    display: block;
+    background: var(--white01-color);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--black02-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--white02-color);
+  }
+
+  .ContactCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .contactusImage {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .ContactCard:hover .contactusImage {
+    transform: scale(1.1);
+  }
+
+  .text-center {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--black02-color);
+  }
+
+  .ContactCard:hover .text-center {
+    color: var(--primary-color);
+  }
+
+  .ltr-text {
+    direction: ltr;
+    unicode-bidi: embed;
+    font-size: 16px;
+    color: var(--black03-color);
+  }
+
+  .text-muted {
+    font-size: 14px;
+    color: var(--black03-color);
+  }
+  

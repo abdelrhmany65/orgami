@@ -1,0 +1,52 @@
+.whyText,
+.AboutCopParagraph {
+  text-align: justify;
+  text-justify: inter-word;
+  display: block;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  max-width: 100%;
+  letter-spacing: 0px; 
+}
+
+
+.mainabout{
+  background-color: var(--black02-color);
+  padding: 6rem 0;
+}
+.whysub{
+  color: var(--golden-color);
+  font-weight: bold;
+}
+.underLine {
+    content: "";
+    width: 10%;
+    height: 3px;
+    background-color: var(--golden-color);
+    margin-top: 10px;
+}
+.seloution{
+  background: var(--black01-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.Aboutimage01{
+  animation: moveUpDown 2s infinite;
+}
+.seloutionImage{
+  background: var(--white01-color);
+
+}
+
+@keyframes moveUpDown {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
